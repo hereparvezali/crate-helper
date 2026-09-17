@@ -1,0 +1,11 @@
+id = "crate-helper"
+name = "Crate Helper"
+version = "0.1.0"
+schema_version = 1
+authors = ["hereparvezali"]
+description = "Cargo.toml autocompletion, hover latest versions suggestions, and updated/backdated hints for Zed"
+repository = "https://github.com/hereparvezali/crate-helper"
+
+[language_servers.crate-helper]
+name = "Crate Helper"
+languages = ["TOML"]

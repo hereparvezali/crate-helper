@@ -1,0 +1,22 @@
+[package]
+name = "crate-helper-lsp"
+version = "0.1.0"
+edition = "2021"
+authors = ["parvez"]
+description = "Language server for Cargo.toml autocompletion, hover version lists, and update warnings"
+
+[[bin]]
+name = "crate-helper-lsp"
+path = "src/main.rs"
+
+[dependencies]
+tower-lsp = "0.20"
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls", "gzip"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+semver = { version = "1.0", features = ["serde"] }
+toml_edit = "0.22"
+dirs = "5.0"
+urlencoding = "2.1"
+anyhow = "1.0"

@@ -1,0 +1,12 @@
+[package]
+name = "crate-helper"
+version = "0.1.0"
+edition = "2021"
+authors = ["parvez"]
+description = "Zed extension for Cargo.toml autocompletion, hover latest versions suggestions, and updated/backdated hints"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.7.0"
