@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 authors = ["parvez"]
 description = "Language server for Cargo.toml autocompletion, hover version lists, and update warnings"
+license = "MIT"
 
 [[bin]]
 name = "crate-helper-lsp"

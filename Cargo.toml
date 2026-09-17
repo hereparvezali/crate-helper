@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 authors = ["parvez"]
 description = "Zed extension for Cargo.toml autocompletion, hover latest versions suggestions, and updated/backdated hints"
+license = "MIT"
 
 [lib]
 crate-type = ["cdylib"]
